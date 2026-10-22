@@ -1,0 +1,143 @@
+[
+ {
+  "chapter": "Abertura",
+  "title": "7 repositórios grátis que fazem do Claude um estúdio de vídeo",
+  "kind": "statement",
+  "labels": [
+   "7 repositórios",
+   "grátis",
+   "vídeo em código"
+  ],
+  "takeaway": "O Claude escreve o vídeo como código: texto nítido e tudo editável.",
+  "source": "youtube:p-7yeArMIQ0@0:00",
+  "speech": "Dá pra transformar o Claude num estúdio de vídeo, só pedindo. Aqueles vídeos de motion graphics, desenho animado e até clipe de música que aparecem no seu feed? Muita gente fez pedindo pro Claude escrever o vídeo como código. Cada quadro é desenhado por código, então o texto sai nítido e você muda qualquer coisa só pedindo. E está tudo de graça no GitHub: prompts, estilos e código. Neste vídeo eu mostro sete desses repositórios, e no fim digo por qual eu começaria hoje.",
+  "svg": null
+ },
+ {
+  "chapter": "Como funciona",
+  "title": "O Claude não faz vídeo: faz uma página que desenha o vídeo",
+  "kind": "flow",
+  "labels": [
+   "seu prompt",
+   "página web",
+   "Chrome fotografa",
+   "FFmpeg junta"
+  ],
+  "takeaway": "Prompt → página → Chrome → FFmpeg → MP4.",
+  "source": "youtube:p-7yeArMIQ0@0:48",
+  "speech": "Primeiro, como funciona. O Claude não gera arquivo de vídeo. Ele escreve uma página web que desenha cada quadro. O Chrome tira uma foto de cada quadro, e uma ferramenta gratuita, o FFmpeg, junta tudo num MP4. Você precisa de Node, Chrome e FFmpeg, todos grátis, e do Claude Code, que pede um plano pago. E aqui no INEMA a gente usa esse mesmo caminho nos nossos vídeos.",
+  "svg": null
+ },
+ {
+  "chapter": "Repositório 1",
+  "title": "awesome-opus5-5-videos: 703 prompts",
+  "kind": "statement",
+  "labels": [
+   "9 mil estrelas",
+   "703 prompts",
+   "link do post original"
+  ],
+  "takeaway": "Achou um vídeo que gostou? Copie o prompt e troque o tema.",
+  "source": "youtube:p-7yeArMIQ0@1:16",
+  "speech": "Número um: awesome opus videos. Passa de nove mil estrelas e é a maior coleção que existe: setecentos e três prompts, cada um com o link do post original, separados em motion graphics, explicativos, cenas em 3D e até joguinhos. O uso é simples: ache um vídeo que você gostou, cole o prompt dele no Claude Code e troque o tema pelo seu.",
+  "svg": null
+ },
+ {
+  "chapter": "Repositório 2",
+  "title": "opus-video-prompts: o prompt de uma linha",
+  "kind": "statement",
+  "labels": [
+   "54 casos",
+   "18 prompts completos",
+   "uma linha"
+  ],
+  "takeaway": "Comece com uma frase e o seu tema.",
+  "source": "youtube:p-7yeArMIQ0@1:41",
+  "speech": "Número dois: opus video prompts. A página é em chinês, mas os prompts estão em inglês. São cinquenta e quatro casos reais e dezoito prompts completos. E tem o prompt mais curto que eu já vi funcionar, de uma linha só: faça um vídeo moderno e marcante para uma startup de inferência. O criador relata um minuto e uns dois dólares. Então comece assim: uma frase com o seu tema.",
+  "svg": null
+ },
+ {
+  "chapter": "Repositório 3",
+  "title": "mg-styles-15: 15 estilos com o código inteiro",
+  "kind": "statement",
+  "labels": [
+   "15 estilos",
+   "creative seed",
+   "segunda IA revisa"
+  ],
+  "takeaway": "Troque só o creative seed; o resto mantém o estilo.",
+  "source": "youtube:p-7yeArMIQ0@2:10",
+  "speech": "Número três: quinze estilos de motion graphics. Cada um é um filme de dez segundos, com o prompt completo e cada linha de código. Cidade isométrica, telas cyberpunk, synthwave, pixel art e até um vertical para reels. Para deixar com a sua cara, mude só a parte do prompt chamada creative seed: a sua marca, as suas palavras, as suas cores. O resto segura o estilo. E a melhor dica: quando o filme ficar pronto, peça para uma segunda IA revisar com a rubrica do repositório e cole a revisão de volta.",
+  "svg": null
+ },
+ {
+  "chapter": "Repositório 4",
+  "title": "lemo-opuscar: uma skill com 59 estilos de filme",
+  "kind": "flow",
+  "labels": [
+   "59 estilos",
+   "instala com 2 comandos",
+   "dirige, desenha, faz a música"
+  ],
+  "takeaway": "É por ele que eu começaria.",
+  "source": "youtube:p-7yeArMIQ0@2:50",
+  "speech": "Número quatro é o que eu usaria primeiro: lemo opuscar. É uma skill do Claude Code com cinquenta e nove estilos de filme. Aquarela, nanquim, giz de cera, xilogravura e até briefing de satélite com dados reais. Você instala com dois comandos e só diz o que quer. Por exemplo: faça um filme de quarenta e cinco segundos, em aquarela, sobre a fazenda de café da minha família. Aí trabalha como um pequeno estúdio: dirige, desenha, compõe a música e confere o próprio trabalho. Um filme leva de trinta a sessenta minutos e gasta bastante token, então comece curto.",
+  "svg": null
+ },
+ {
+  "chapter": "Repositório 5",
+  "title": "ClaudeAnimationBase: desenho animado com o Clawd",
+  "kind": "statement",
+  "labels": [
+   "Clawd",
+   "31 emoções",
+   "planeja, desenha, confere"
+  ],
+  "takeaway": "Kit pronto de desenho animado, com personagem e emoções.",
+  "source": "youtube:p-7yeArMIQ0@4:07",
+  "speech": "Número cinco é para desenho animado: Claude Animation Base. É um kit com o Clawd, o mascotinho laranja do Claude, já desenhado com trinta e uma emoções. Abra no Claude Code, peça para ler o guia de animação e depois um vídeo de quinze segundos do Clawd tentando pegar uma borboleta. Ele planeja as cenas, desenha, confere os quadros e entrega o MP4. Dica do criador: quanto maior o esforço de raciocínio, mais detalhada a cena. E dá para trocar o Clawd pelo seu personagem.",
+  "svg": null
+ },
+ {
+  "chapter": "Repositório 6",
+  "title": "A dupla P(doom): mesma música, dois diretores",
+  "kind": "compare",
+  "labels": [
+   "pinceladas",
+   "karaokê neon 4K",
+   "mesma música"
+  ],
+  "takeaway": "A sua direção muda o resultado.",
+  "source": "youtube:p-7yeArMIQ0@4:54",
+  "speech": "Número seis são dois repositórios que andam juntos. Duas pessoas fizeram um clipe para a mesma música, os dois com o Claude. Um é pintado com pinceladas, e o autor só pediu um visual interessante para cada verso. O outro é um karaokê em neon, em 4K a sessenta quadros por segundo. Abra os dois lado a lado. Mesma música, dois diretores: é a melhor aula de quanto a sua direção muda o resultado.",
+  "svg": null
+ },
+ {
+  "chapter": "Repositório 7",
+  "title": "awesome-claude-5-5-videos: a pesquisa",
+  "kind": "compare",
+  "labels": [
+   "424 posts",
+   "Haiku US$ 2,19",
+   "Opus US$ 3,04"
+  ],
+  "takeaway": "Modelo mais barato pode bastar: teste primeiro.",
+  "source": "youtube:p-7yeArMIQ0@5:34",
+  "speech": "Número sete é o de pesquisa: awesome claude videos. São quatrocentos e vinte e quatro posts, e não só com o Opus: Sonnet e Haiku também, que custam menos. Um criador deu a mesma cena para o Haiku e para o Opus e relata dois dólares e dezenove contra três dólares e quatro. Então, se o Opus parecer caro, teste antes um modelo mais barato.",
+  "svg": null
+ },
+ {
+  "chapter": "Por onde começar",
+  "title": "Limites e o primeiro passo",
+  "kind": "compare",
+  "labels": [
+   "motion, desenho, explicativo",
+   "pessoas realistas não",
+   "2 a 3 rodadas"
+  ],
+  "takeaway": "Um estilo, menos de 30 segundos, sobre o que você vende ou ensina.",
+  "source": "youtube:p-7yeArMIQ0@6:10",
+  "speech": "Agora, os limites. Isso é ótimo para motion graphics, desenho animado, explicativos e clipes com letra. Não é para pessoas realistas: para isso entra um modelo de vídeo de verdade. E o mesmo prompt gera um filme diferente a cada vez, então conte com duas ou três rodadas. Por onde eu começaria: um estilo do lemo opuscar, menos de trinta segundos, sobre algo que você vende ou ensina. Os sete links estão no repositório deste vídeo e tudo está no inema ponto club. Me conta nos comentários qual você vai testar primeiro.",
+  "svg": null
+ }
+]
