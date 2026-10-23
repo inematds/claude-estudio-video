@@ -1,0 +1,601 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.540
+Dá pra transformar o Claude num estúdio
+
+2
+00:00:01.540 --> 00:00:02.820
+de vídeo, só pedindo.
+
+3
+00:00:02.820 --> 00:00:04.480
+Aqueles vídeos de motion graphics,
+
+4
+00:00:04.480 --> 00:00:06.000
+desenho animado e até clipe de música
+
+5
+00:00:06.000 --> 00:00:07.440
+que aparecem no seu feed?
+
+6
+00:00:07.440 --> 00:00:09.060
+Muita gente fez pedindo pro Claude escrever
+
+7
+00:00:09.060 --> 00:00:10.140
+o vídeo como código.
+
+8
+00:00:10.140 --> 00:00:12.120
+Cada quadro é desenhado por código,
+
+9
+00:00:12.120 --> 00:00:13.980
+então o texto sai nítido e você
+
+10
+00:00:13.980 --> 00:00:15.540
+muda qualquer coisa só pedindo.
+
+11
+00:00:15.540 --> 00:00:17.220
+E está tudo de graça no GitHub:
+
+12
+00:00:17.220 --> 00:00:18.960
+prompts, estilos e código.
+
+13
+00:00:18.960 --> 00:00:21.440
+Neste vídeo eu mostro sete desses repositórios,
+
+14
+00:00:21.440 --> 00:00:23.080
+e no fim digo por qual eu
+
+15
+00:00:23.080 --> 00:00:24.020
+começaria hoje.
+
+16
+00:00:24.020 --> 00:00:25.240
+Primeiro, como funciona.
+
+17
+00:00:25.240 --> 00:00:27.100
+O Claude não gera arquivo de vídeo.
+
+18
+00:00:27.100 --> 00:00:28.880
+Ele escreve uma página web que desenha
+
+19
+00:00:28.880 --> 00:00:29.480
+cada quadro.
+
+20
+00:00:29.480 --> 00:00:30.980
+O Chrome tira uma foto de cada
+
+21
+00:00:30.980 --> 00:00:32.820
+quadro, e uma ferramenta gratuita,
+
+22
+00:00:32.820 --> 00:00:35.440
+o FFmpeg, junta tudo num MP4.
+
+23
+00:00:35.440 --> 00:00:36.500
+Você precisa de Node,
+
+24
+00:00:36.500 --> 00:00:38.000
+Chrome e FFmpeg,
+
+25
+00:00:38.000 --> 00:00:39.820
+todos grátis, e do Claude Code,
+
+26
+00:00:39.820 --> 00:00:41.000
+que pede um plano pago.
+
+27
+00:00:41.000 --> 00:00:42.380
+E aqui no INEMA a gente usa
+
+28
+00:00:42.380 --> 00:00:44.100
+esse mesmo caminho nos nossos vídeos.
+
+29
+00:00:44.100 --> 00:00:46.100
+Número um: awesome opus videos.
+
+30
+00:00:46.100 --> 00:00:47.560
+Passa de nove mil estrelas e é
+
+31
+00:00:47.560 --> 00:00:48.765
+a maior coleção que existe:
+
+32
+00:00:48.765 --> 00:00:50.200
+setecentos e três prompts,
+
+33
+00:00:50.200 --> 00:00:51.420
+cada um com o link do post
+
+34
+00:00:51.420 --> 00:00:53.600
+original, separados em motion graphics,
+
+35
+00:00:53.600 --> 00:00:56.280
+explicativos, cenas em 3D e até joguinhos.
+
+36
+00:00:56.280 --> 00:00:57.380
+O uso é simples:
+
+37
+00:00:57.380 --> 00:00:58.800
+ache um vídeo que você gostou,
+
+38
+00:00:58.800 --> 00:01:00.400
+cole o prompt dele no Claude Code
+
+39
+00:01:00.400 --> 00:01:02.140
+e troque o tema pelo seu.
+
+40
+00:01:02.140 --> 00:01:03.980
+Número dois: opus video prompts.
+
+41
+00:01:03.980 --> 00:01:05.180
+A página é em chinês,
+
+42
+00:01:05.180 --> 00:01:06.740
+mas os prompts estão em inglês.
+
+43
+00:01:06.740 --> 00:01:08.840
+São cinquenta e quatro casos reais e
+
+44
+00:01:08.840 --> 00:01:09.980
+dezoito prompts completos.
+
+45
+00:01:09.980 --> 00:01:11.360
+E tem o prompt mais curto que
+
+46
+00:01:11.360 --> 00:01:12.200
+eu já vi funcionar,
+
+47
+00:01:12.200 --> 00:01:13.320
+de uma linha só:
+
+48
+00:01:13.320 --> 00:01:15.160
+faça um vídeo moderno e marcante para
+
+49
+00:01:15.160 --> 00:01:16.600
+uma startup de inferência.
+
+50
+00:01:16.600 --> 00:01:18.590
+O criador relata um minuto e uns
+
+51
+00:01:18.590 --> 00:01:19.160
+dois dólares.
+
+52
+00:01:19.160 --> 00:01:20.220
+Então comece assim:
+
+53
+00:01:20.220 --> 00:01:21.840
+uma frase com o seu tema.
+
+54
+00:01:21.840 --> 00:01:24.400
+Número três: quinze estilos de motion graphics.
+
+55
+00:01:24.400 --> 00:01:25.700
+Cada um é um filme de dez
+
+56
+00:01:25.700 --> 00:01:27.880
+segundos, com o prompt completo e cada
+
+57
+00:01:27.880 --> 00:01:28.820
+linha de código.
+
+58
+00:01:28.820 --> 00:01:31.000
+Cidade isométrica, telas cyberpunk,
+
+59
+00:01:31.000 --> 00:01:33.220
+synthwave, pixel art e até um vertical
+
+60
+00:01:33.220 --> 00:01:33.980
+para reels.
+
+61
+00:01:33.980 --> 00:01:35.460
+Para deixar com a sua cara,
+
+62
+00:01:35.460 --> 00:01:37.100
+mude só a parte do prompt chamada
+
+63
+00:01:37.100 --> 00:01:38.700
+creative seed: a sua marca,
+
+64
+00:01:38.700 --> 00:01:39.700
+as suas palavras,
+
+65
+00:01:39.700 --> 00:01:40.620
+as suas cores.
+
+66
+00:01:40.620 --> 00:01:42.100
+O resto segura o estilo.
+
+67
+00:01:42.100 --> 00:01:43.000
+E a melhor dica:
+
+68
+00:01:43.000 --> 00:01:44.320
+quando o filme ficar pronto,
+
+69
+00:01:44.320 --> 00:01:47.100
+peça para uma segunda IA revisar
+
+70
+00:01:47.100 --> 00:01:48.920
+com a rubrica do repositório e cole
+
+71
+00:01:48.920 --> 00:01:50.140
+a revisão de volta.
+
+72
+00:01:50.140 --> 00:01:51.600
+Número quatro é o que eu usaria
+
+73
+00:01:51.600 --> 00:01:53.280
+primeiro: lemo opuscar.
+
+74
+00:01:53.280 --> 00:01:55.130
+É uma skill do Claude Code com
+
+75
+00:01:55.130 --> 00:01:56.560
+cinquenta e nove estilos de filme.
+
+76
+00:01:56.560 --> 00:01:58.480
+Aquarela, nanquim, giz de cera,
+
+77
+00:01:58.480 --> 00:02:00.740
+xilogravura e até briefing de satélite com
+
+78
+00:02:00.740 --> 00:02:01.560
+dados reais.
+
+79
+00:02:01.560 --> 00:02:03.260
+Você instala com dois comandos e só
+
+80
+00:02:03.260 --> 00:02:03.840
+diz o que quer.
+
+81
+00:02:03.840 --> 00:02:05.400
+Por exemplo: faça um filme de quarenta
+
+82
+00:02:05.400 --> 00:02:06.120
+e cinco segundos,
+
+83
+00:02:06.120 --> 00:02:07.960
+em aquarela, sobre a fazenda de café
+
+84
+00:02:07.960 --> 00:02:08.900
+da minha família.
+
+85
+00:02:08.900 --> 00:02:11.020
+Aí trabalha como um pequeno estúdio:
+
+86
+00:02:11.020 --> 00:02:13.560
+dirige, desenha, compõe a música e confere
+
+87
+00:02:13.560 --> 00:02:14.440
+o próprio trabalho.
+
+88
+00:02:14.440 --> 00:02:16.040
+Um filme leva de trinta a sessenta
+
+89
+00:02:16.040 --> 00:02:17.860
+minutos e gasta bastante token,
+
+90
+00:02:17.860 --> 00:02:19.200
+então comece curto.
+
+91
+00:02:19.200 --> 00:02:20.900
+Número cinco é para desenho animado:
+
+92
+00:02:20.900 --> 00:02:23.200
+Claude Animation Base.
+
+93
+00:02:23.280 --> 00:02:24.640
+É um kit com o Clawd,
+
+94
+00:02:24.640 --> 00:02:26.300
+o mascotinho laranja do Claude,
+
+95
+00:02:26.300 --> 00:02:28.460
+já desenhado com trinta e uma emoções.
+
+96
+00:02:28.460 --> 00:02:29.580
+Abra no Claude Code,
+
+97
+00:02:29.580 --> 00:02:31.020
+peça para ler o guia de animação
+
+98
+00:02:31.020 --> 00:02:32.680
+e depois um vídeo de quinze segundos
+
+99
+00:02:32.680 --> 00:02:34.700
+do Clawd tentando pegar uma borboleta.
+
+100
+00:02:34.700 --> 00:02:36.000
+Ele planeja as cenas,
+
+101
+00:02:36.000 --> 00:02:38.660
+desenha, confere os quadros e entrega o
+
+102
+00:02:38.660 --> 00:02:39.860
+MP4.
+
+103
+00:02:40.000 --> 00:02:41.040
+Dica do criador:
+
+104
+00:02:41.040 --> 00:02:42.820
+quanto maior o esforço de raciocínio,
+
+105
+00:02:42.820 --> 00:02:44.040
+mais detalhada a cena.
+
+106
+00:02:44.040 --> 00:02:45.500
+E dá para trocar o Clawd pelo
+
+107
+00:02:45.500 --> 00:02:46.860
+seu personagem.
+
+108
+00:02:46.920 --> 00:02:49.100
+Número seis são dois repositórios que andam
+
+109
+00:02:49.100 --> 00:02:49.700
+juntos.
+
+110
+00:02:49.700 --> 00:02:51.240
+Duas pessoas fizeram um clipe para a
+
+111
+00:02:51.240 --> 00:02:52.840
+mesma música, os dois com o Claude.
+
+112
+00:02:52.840 --> 00:02:54.220
+Um é pintado com pinceladas,
+
+113
+00:02:54.220 --> 00:02:55.900
+e o autor só pediu um visual
+
+114
+00:02:55.900 --> 00:02:57.220
+interessante para cada verso.
+
+115
+00:02:57.220 --> 00:02:58.900
+O outro é um karaokê em neon,
+
+116
+00:02:58.900 --> 00:03:01.220
+em 4K a sessenta quadros por segundo.
+
+117
+00:03:01.220 --> 00:03:02.480
+Abra os dois lado a lado.
+
+118
+00:03:02.480 --> 00:03:04.300
+Mesma música, dois diretores:
+
+119
+00:03:04.300 --> 00:03:05.540
+é a melhor aula de quanto a
+
+120
+00:03:05.540 --> 00:03:07.200
+sua direção muda o resultado.
+
+121
+00:03:07.200 --> 00:03:08.860
+Número sete é o de pesquisa:
+
+122
+00:03:08.860 --> 00:03:10.180
+awesome claude videos.
+
+123
+00:03:10.180 --> 00:03:12.420
+São quatrocentos e vinte e quatro posts,
+
+124
+00:03:12.420 --> 00:03:14.110
+e não só com o Opus:
+
+125
+00:03:14.110 --> 00:03:15.580
+Sonnet e Haiku também,
+
+126
+00:03:15.580 --> 00:03:16.520
+que custam menos.
+
+127
+00:03:16.520 --> 00:03:18.280
+Um criador deu a mesma cena para
+
+128
+00:03:18.280 --> 00:03:19.920
+o Haiku e para o Opus e
+
+129
+00:03:19.920 --> 00:03:22.280
+relata dois dólares e dezenove contra três
+
+130
+00:03:22.280 --> 00:03:23.300
+dólares e quatro.
+
+131
+00:03:23.300 --> 00:03:25.260
+Então, se o Opus parecer caro,
+
+132
+00:03:25.260 --> 00:03:27.160
+teste antes um modelo mais barato.
+
+133
+00:03:27.160 --> 00:03:28.580
+Agora, os limites.
+
+134
+00:03:28.580 --> 00:03:30.460
+Isso é ótimo para motion graphics,
+
+135
+00:03:30.460 --> 00:03:33.500
+desenho animado, explicativos e clipes com letra.
+
+136
+00:03:33.500 --> 00:03:34.980
+Não é para pessoas realistas:
+
+137
+00:03:34.980 --> 00:03:36.480
+para isso entra um modelo de vídeo
+
+138
+00:03:36.480 --> 00:03:37.040
+de verdade.
+
+139
+00:03:37.040 --> 00:03:38.900
+E o mesmo prompt gera um filme
+
+140
+00:03:38.900 --> 00:03:39.980
+diferente a cada vez,
+
+141
+00:03:39.980 --> 00:03:42.040
+então conte com duas ou três rodadas.
+
+142
+00:03:42.040 --> 00:03:43.320
+Por onde eu começaria:
+
+143
+00:03:43.320 --> 00:03:44.900
+um estilo do lemo opuscar,
+
+144
+00:03:44.900 --> 00:03:46.220
+menos de trinta segundos,
+
+145
+00:03:46.220 --> 00:03:48.340
+sobre algo que você vende ou ensina.
+
+146
+00:03:48.340 --> 00:03:50.240
+Os sete links estão no repositório deste
+
+147
+00:03:50.240 --> 00:03:51.760
+vídeo e tudo está no inema ponto
+
+148
+00:03:51.760 --> 00:03:52.180
+club.
+
+149
+00:03:52.180 --> 00:03:53.880
+Me conta nos comentários qual você vai
+
+150
+00:03:53.880 --> 00:03:54.800
+testar primeiro.

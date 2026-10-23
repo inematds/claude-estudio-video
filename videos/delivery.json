@@ -1,0 +1,11 @@
+{
+  "16x9": {
+    "url": "https://github.com/inematds/claude-estudio-video/releases/download/video-v1.0.0/claude-estudio-video-16x9.mp4",
+    "srt": "https://github.com/inematds/claude-estudio-video/releases/download/video-v1.0.0/claude-estudio-video-16x9.srt",
+    "duration": 234.86
+  },
+  "9x16": {
+    "url": "https://github.com/inematds/claude-estudio-video/releases/download/video-v1.0.0/claude-estudio-video-9x16.mp4",
+    "duration": 234.77
+  }
+}
