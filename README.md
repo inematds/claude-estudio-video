@@ -3,7 +3,7 @@
 Vídeo do INEMA.CLUB, com avatar e voz do Nei Maldaner, sobre sete repositórios gratuitos do GitHub que mostram como fazer
 vídeo pedindo para o Claude escrever o vídeo como código: motion graphics, desenho animado, explicativos e clipes de música.
 
-**Assistir:** https://inematds.github.io/claude-estudio-video/videos/ (16:9 e 9:16)
+**Assistir:** https://inematds.github.io/claude-estudio-video/videos/ (16:9 e 9:16) · YouTube: [16:9](https://www.youtube.com/watch?v=xkAzBrdUVhA) · [9:16](https://www.youtube.com/watch?v=c4xoc26xFEU)
 
 ## Como funciona
 
